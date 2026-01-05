@@ -1,0 +1,22 @@
+defaults: 
+  - model_family
+  - _self_
+
+data_path: data/tasks/samsum # [gsm8k, samsum, sql_create_context]
+
+results_path: outputs/utility_outputs/
+
+batch_size: 16 # 
+model_path: openai/gpt-oss-20b
+# model_path: /scratch/inertia/refusal_qwen2.5_32b
+
+# model generation on each unsafe prompt
+model_gen_kwargs:
+  max_new_tokens: 1024
+  do_sample: False
+  # top_p: 0.6
+  temperature: 0.3
+  top_k: 50
+  repetition_penalty: 1.0
+
+eval_only: False  # if True, only do utility evaluation

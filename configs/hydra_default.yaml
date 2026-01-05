@@ -1,0 +1,5 @@
+hydra:
+  run:
+    dir: "." # disable hydra's default behavior of creating a new output directory
+  job:
+    name: "."
