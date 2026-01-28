@@ -1,6 +1,6 @@
-# 1,000 Benign Samples Can Unlearn Refusal
+# LLMs Can Unlearn Refusal with Only 1,000 Benign Samples
 
-Official implementation of [1,000 Benign Samples Can Unlearn Refusal]().
+Official implementation of [LLMs Can Unlearn Refusal with Only 1,000 Benign Samples](https://arxiv.org/abs/2601.19231).
 
 
 
@@ -78,10 +78,11 @@ Our implementation follows:
 If you find this work useful, please consider citing this paper:
 ```bibtex
 @misc{involuntary,
-  title={1,000 Benign Samples Can Unlearn Refusal}, 
-  author={},
-  year={},
-  eprint={},
-  archivePrefix={},
+  title={LLMs Can Unlearn Refusal with Only 1,000 Benign Samples}, 
+  author={Yangyang Guo and Ziwei Xu and Si Liu and Zhiming Zheng and Mohan Kankanhalli},
+  year={2026},
+  eprint={2601.19231},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
 }
 ```
